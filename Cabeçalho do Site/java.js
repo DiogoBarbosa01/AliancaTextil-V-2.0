@@ -7,5 +7,5 @@ function nextSlide() {
   slides[currentSlide].classList.add('active');
 }
 
-setInterval(nextSlide, 7000); // Troca de slide a cada 7 segundos (ajuste conforme necessário)
+setInterval(nextSlide, 20000); // Troca de slide a cada 20 segundos (ajuste conforme necessário)
 
