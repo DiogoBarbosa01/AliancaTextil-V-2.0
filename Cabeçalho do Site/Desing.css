@@ -1,0 +1,56 @@
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: auto; /* Move o logo para a esquerda */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Exemplo de fonte: Arial */
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-image: linear-gradient(to right, rgb(5, 103, 202), #007F5FFF, #FFD700FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Adicione esta linha para compatibilidade */
+  }
+  
+  .slider {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    display: none; /* Esconde todos os slides inicialmente */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
