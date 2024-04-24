@@ -54,7 +54,7 @@ top: 0;
 left: 0;
 width: 100%;
 opacity: 0; /* Começa invisível */
-transition: opacity 1s ease; /* Transição suave de opacidade */
+transition: opacity 7s ease; /* Transição suave de opacidade */
 }
 
 .slide.active {
