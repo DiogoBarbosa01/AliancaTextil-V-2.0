@@ -3,6 +3,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
+
+    background-image: url("../background.jpg");
 }
 /* Estilo para o cabeçalho */
 header {
@@ -77,10 +79,9 @@ object-fit: cover; /* Mantém a proporção da imagem e corta o excesso para pre
 /* Outros estilos conforme necessário */
 /* Estilo para o formulário */
 
-.sobre{
+.sobre{  
   max-width: 1440px;
   margin: 550px auto;
-
   display: flex;
   justify-content: space-between;
 }
@@ -95,6 +96,26 @@ object-fit: cover; /* Mantém a proporção da imagem e corta o excesso para pre
   font-weight: 500;
 }
 .sobre img{
+  width: 400px;
+  border-radius: 5px;
+}
+.catalogo{
+  max-width: 1440px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.catalogo div{
+  width: 500px;
+}
+.catalogo div h1{
+  font-size: 1.8rem;
+  color: #104086;
+}
+.catalogo div p{
+  font-weight: 500;
+}
+.catalogo img{
   width: 400px;
   border-radius: 5px;
 }
